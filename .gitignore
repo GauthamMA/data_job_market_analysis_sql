@@ -1,0 +1,5 @@
+# Keep CSV datasets local
+*.csv
+
+# Keep VS Code settings and connection details local
+.vscode/
