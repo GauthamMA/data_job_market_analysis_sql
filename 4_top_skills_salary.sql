@@ -124,8 +124,6 @@ LIMIT(25);
 
 
 /*
-PySpark ranks first, with an average annual salary of 208,172, followed by Bitbucket at 189,155.
-pandas, Jupyter and NumPy all appear in the top 12, linking Python-related tools with high-paying roles.
-scikit-learn also makes the list, with an average salary of 125,781.
-All 25 listed skills have average salaries above 120,000 among the selected work-from-home Data Analyst postings.
-One useful limitation: the query doesn’t show how many jobs mention each skill. A high average could come from only a few postings.*/
+Big-data skills lead the salary ranking: PySpark tops the list at 208,172, while Databricks and Scala also feature, suggesting high-paying roles involving large-scale data processing.
+Python and machine learning skills feature strongly: Pandas, NumPy and Jupyter support cleaning and analysing data, while Watson, DataRobot and scikit-learn support predictive modelling.
+Some analyst roles involve broader technical work: GitLab, Kubernetes and Airflow suggest responsibilities involving code, infrastructure and automation. However, without posting counts, high average salaries may reflect only a few jobs.*/
