@@ -1,5 +1,16 @@
-/* what skills are associated with top paying DA jobs.*/
-  
+/*
+Question: Which skills are associated with the 10 highest-paying
+Data Analyst job postings?
+
+Scope:
+- Job category: Data Analyst
+- Location listed as 'Anywhere'
+- Annual salary must be available
+- Select the top 10 postings by salary, then join their recorded skills
+
+Each result row represents one job-skill association.
+Postings without matching skill records are excluded from the output.
+*/
 
 WITH top_paying_DA_jobs AS (
     SELECT
@@ -563,8 +574,3 @@ ORDER BY
 ]*/
 
 
-/*- SQL is the most common skill, appearing in all 8 jobs with recorded skills.
-- Python follows closely, appearing in 7 jobs.
-- Tableau is the leading visualisation tool, appearing in 6 jobs, compared with Power BI in 2.
-- R appears in 4 jobs, while Excel, pandas and Snowflake each appear in 3.
-These counts cover 8 of the original 10 jobs; the other two didn’t appear in the skill-join results.*/

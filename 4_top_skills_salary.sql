@@ -1,5 +1,15 @@
-/* What are the top skills based on salary*/
+/*
+Question: Which 25 skills have the highest average annual salaries
+for work-from-home Data Analyst postings?
 
+Scope:
+- Job category: Data Analyst
+- Work-from-home flag must be true
+- Annual salary must be available
+
+Skills are ranked by average annual salary, highest first.
+No minimum posting count is required.
+*/
 
 SELECT                
     ROUND(AVG(jpf.salary_year_avg), 0) AS average_salary,
@@ -123,7 +133,3 @@ LIMIT(25);
 ]*/
 
 
-/*
-Big-data skills lead the salary ranking: PySpark tops the list at 208,172, while Databricks and Scala also feature, suggesting high-paying roles involving large-scale data processing.
-Python and machine learning skills feature strongly: Pandas, NumPy and Jupyter support cleaning and analysing data, while Watson, DataRobot and scikit-learn support predictive modelling.
-Some analyst roles involve broader technical work: GitLab, Kubernetes and Airflow suggest responsibilities involving code, infrastructure and automation. However, without posting counts, high average salaries may reflect only a few jobs.*/

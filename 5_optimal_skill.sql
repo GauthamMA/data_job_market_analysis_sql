@@ -1,7 +1,17 @@
-/*What is the most optimal skill
-  - most demanded skill
-  - most paid skill
-  - Work From Home Data analyst roles with specific yearly salaries*/
+/*
+Question: Which skills offer the highest average annual salaries
+while appearing in more than 10 work-from-home Data Analyst postings?
+
+Scope:
+- Job category: Data Analyst
+- Work-from-home flag must be true
+- Annual salary must be available
+- Demand count must be greater than 10
+
+Returns the top 25 rows ranked by average salary, highest first.
+Demand count breaks salary ties.
+*/
+
 
 WITH skill_demand AS (
     SELECT
@@ -207,7 +217,3 @@ LIMIT(25) ;
 ]*/
 
 
-
-/*Python and Tableau show a strong balance of demand and salary: Python appears in 236 postings, averaging 101,397, while Tableau appears in 230, averaging 99,288—the highest demand counts in these results.
-Cloud and big-data skills command higher average salaries: Snowflake (112,948), Hadoop (113,193) and Azure (111,225) exceed Python’s average, but appear in fewer postings (22–37). This suggests higher-paying, more specialised opportunities.
-The highest salary doesn’t mean the most opportunities: Go leads at 115,320, but appears in only 27 postings. Your query filters out skills with 10 or fewer postings, yet still ranks by salary first—so this is a salary-led shortlist, not an equal balance of pay and demand.*/

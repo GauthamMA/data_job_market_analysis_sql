@@ -1,6 +1,13 @@
-/* What are the top-paying data analyst roles?
- - top ten highest paying data analyst jobs that are available remotly
- - remove postings with null salaries*/
+/*
+Question: What are the 10 highest-paying Data Analyst job postings?
+
+Scope:
+- Job category: Data Analyst
+- Location listed as 'Anywhere'
+- Annual salary must be available
+
+Results are ordered by annual salary, highest first.
+*/
 
 SELECT
     jpf.job_id,
@@ -116,8 +123,3 @@ LIMIT(10);
   }
 ]*/
 
-/*for readme
-Mantys has the highest listed salary: 650,000 per year, followed by Meta at 336,500.
-Senior roles feature heavily: six of the ten titles include Director, Associate Director or Principal.
-SmartAsset appears twice, with salaries of 205,000 and 186,000.
-All ten jobs are full-time.*/

@@ -1,4 +1,13 @@
-/* What the the most in demand skills for Data Analysts*/
+/*
+Question: What are the 5 most in-demand skills for Data Analysts?
+
+Scope:
+- All postings categorised as Data Analyst
+- Includes remote and nonremote jobs
+- Includes postings with and without salary information
+
+Skills are ranked by posting count, highest first.
+*/
 
 
 SELECT
@@ -40,7 +49,3 @@ LIMIT(5);
   }
 ]*/
 
-/*SQL leads demand, appearing in 92,628 job postings.
-Excel ranks second, ahead of Python—spreadsheet skills remain prominent in these results.
-Python is third, with 57,326 postings.
-Tableau appears more often than Power BI: 46,554 versus 39,468 postings.*/
